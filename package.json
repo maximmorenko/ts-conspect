@@ -1,0 +1,23 @@
+{
+  "name": "ts-conspect",
+  "version": "1.0.0",
+  "description": "TypeScript conspect",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximmorenko/ts-conspect.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximmorenko/ts-conspect/issues"
+  },
+  "homepage": "https://github.com/maximmorenko/ts-conspect#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
