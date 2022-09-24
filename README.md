@@ -25,4 +25,4 @@
 ## Установка TS node
 - позволит и преобразовать и запустить файл TS
 - npm install -g ts-node
-- запуск команды ts-node index.js
+- запуск команды (ts-node index.js)
