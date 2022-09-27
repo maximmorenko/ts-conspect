@@ -4,6 +4,7 @@
   "description": "TypeScript conspect",
   "main": "index.js",
   "scripts": {
+    "start": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/maximmorenko/ts-conspect#readme",
   "dependencies": {
     "axios": "^0.27.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.3"
   }
 }
