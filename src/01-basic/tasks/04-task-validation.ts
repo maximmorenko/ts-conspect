@@ -37,7 +37,7 @@ const admin1: Admin = {
     role: 'dfdfdf',
 }
 
-function login (user: {login: string, password: string}): void {
+export function login (user: {login: string, password: string}): void {
     
     if (user.login.length > 0, user.password.length > 0) {
         // проверим оба поля на длину, если они не равны 0, то печатаем поздравление
