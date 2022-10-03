@@ -5,10 +5,10 @@
 // эта строка говорит о том, что возможерн пустой заказ, верно?
 // type PossibleOrders = TelephoneOrder | InternetOrder | undefined;
 // Как достигается undefined ? Ведь по условию в интерфейсах поля обязательные.
-const order3: PossibleOrders = {
-    address: 'dddd3',
-   // создать заказ без обязательных полей TS не дает такой возможности
-}
+// const order3: PossibleOrders = {
+//     address: 'dddd3',
+//    // создать заказ без обязательных полей TS не дает такой возможности
+// }
 
 
 // 2.
@@ -59,12 +59,12 @@ const order2: PossibleOrders = {
     address: 'dddd2',
     email: 'mmmm',
 }
-const order3: PossibleOrders = {
-     address: 'dddd3',
-    // создать заказ без обязательных полей TS не дает такой возможности
-}
+// const order3: PossibleOrders = {
+//      address: 'dddd3',
+//     // создать заказ без обязательных полей TS не дает такой возможности
+// }
 
 
 makeOrder(order1)
 makeOrder(order2)
-makeOrder(order3)
+// makeOrder(order3)
