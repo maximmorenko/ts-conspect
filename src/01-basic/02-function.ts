@@ -32,7 +32,7 @@ function logi(name: string, userId?: string): void {
 logi('Mac', '123');
 
 // нужно явно указать какие елеменыт в массиве
-function average(...nums: number[]) {
+export function average(...nums: number[]) {
     const sum = nums.reduce((current, total) => current = total, 0)
 
     return sum / nums.length;
